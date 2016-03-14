@@ -1,0 +1,16 @@
+npm install karma --save-dev
+
+npm install karma-jasmine karma-firefox-launcher --save-dev
+
+karma init my.conf.js
+
+npm install karma-html-reporter
+
+copy angular.js, angular-mocks.js, 
+angular-resource.js, jasmine.js from their modules
+
+all tests in tests/*.js
+
+node_modules/karma/bin/./karma start my.conf.js
+
+
